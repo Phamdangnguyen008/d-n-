@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( to right, lightblue, white);
+    color: light-dark;}
+#header {
+    background: linear-gradient(darkblue, lightblue);
+    color: white;
+    text-align: center;
+    padding: 40px 15px;}
+#header h1 {
+    margin: 0;
+    font-size: 34px;
+    letter-spacing: 1px;}
+#header p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;}
+#content {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 15px;}
+#content .box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    margin-top: 40px;}
+#content h2 {
+    color: darkblue;
+    border-left: lightblue;
+    padding-left: 10px;}
+#content ul {
+    padding-left: 20px;}
+#content li {
+    margin: 8px 0;}
+.media {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;}
+.gallery img {
+    margin: 5px;
+    border-radius: 10px;}
+.video video {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;}
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;}
+form input[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;}
+form input[type="submit"]:hover {
+    background-color: darkblue;}
+#footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;}
+#footer p {
+    margin: 6px 0;
+    font-size: 14px;}
